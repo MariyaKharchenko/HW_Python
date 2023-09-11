@@ -28,7 +28,7 @@ def f(our_text):
 f(our_text)
 
 a = len(set(out_list))
-if a == 1:
+if a == 1 and 0 not in set(out_list):
     print('Парам пам-пам')
 else:
     print('Пам парам')
